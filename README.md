@@ -34,3 +34,23 @@ We learned a lot about Embedded Large Language Models. We also learned about how
 
 ## What's next for LilDewey
 The next steps for LilDewey, apart from his aspiring rap career, is to improve the project’s usability. Currently, we have the translation feature to work on accessibility. However, for large textbooks with large amounts of data, the algorithm can take a while to run. Improving the algorithm's time efficiency would make it easier to use and more effective. We also want to develop the UI for a website, possibly making a website to allow users to use this ML and make it personal for a user such as recommending other textbooks to the user or storing the textbooks they upload.
+
+
+## Extra Questions:
+
+**The Project**
+Team name: Byte Club
+Goals: Our goal with our project, Lil’ Dewey, (named after the famous John Dewey reformer of the US education system) was to make a specialized chatbot leveraging the capabilities of LLMs like ChatGPT that was trained on a specific academic text and could answer associated queries from a student on that text in a way that was knowledge-based and cited pages and sections directly from that text. Additionally, we wanted to maximize accessibility, considering cases of students who may be, for example, non-native english speakers who might want to ask queries and receive responses in a native language but still based on an english academic text they’re studying. This enhances the ability for people to use this to build comprehension in a more familiar way while still deriving all the semantic information from an English text (more than 75% of the world’s academic publications are in English). 
+
+**The Team:**
+Jad Oubala:
+Built the data pre- and post-processing as well as the semantic search and OpenAI integration for the model. Assisted in integrating the language translational features. 
+Will Kaminski:
+Worked on the translation system and created the detection function and both translation functions. Also helped debug the rest of the code and attempted to make a UI using Flask.
+Sam Bradley: Worked on Hugging Face integration and Gradio UI debugging. Helped with other post-processing, debugging, and code. 
+
+**Acknowledgements** 
+The inspiration for this project came from experience with multilingual and international students experiencing difficulties with various english texts that weren’t always immediately familiar to them. We’d also like to recognize inspiration taken from similar chatbots built around specific textbooks or academic corpi:
+https://github.com/slavingia/askmybook 
+https://braddelong.substack.com/p/sub-turing-bradbot-i-chat-gpt-4-turbo 
+Thanks to all of our teammates for working together well and creating this great project!
